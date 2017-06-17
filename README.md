@@ -12,7 +12,7 @@ How to install the simulator:
 
     ```
     mkdir -p ~/catkin_ws/src
-    cd  ~/tcatkin_ws
+    cd  ~/catkin_ws
     catkin_make
     source devel/setup.bash
     ```
@@ -20,6 +20,7 @@ How to install the simulator:
 2. Download dependencies
 
     ```
+    cd ~/catkin_ws/src
     git clone https://github.com/AutonomyLab/ardrone_autonomy.git	# The AR.Drone ROS driver
     git clone https://github.com/HubFire/ardrone_simulator.git
     cd ..
